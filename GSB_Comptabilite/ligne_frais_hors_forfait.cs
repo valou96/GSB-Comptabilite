@@ -6,14 +6,14 @@ using System.Threading.Tasks;
 
 namespace GSB_Comptabilite
 {
-    public class ligne_frais_hors_forfait
+    public class Ligne_frais_hors_forfait
     {
         private int fichefrais_id;
         private string libelle;
         private DateTime date;
         private double montant;
 
-        public ligne_frais_hors_forfait(int fichefrais_id, 
+        public Ligne_frais_hors_forfait(int fichefrais_id, 
             string libelle, DateTime date, double montant)
         {
             this.fichefrais_id = fichefrais_id;

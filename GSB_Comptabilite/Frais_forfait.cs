@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace GSB_Comptabilite
 {
-    internal class Frais_forfait
+    public class Frais_forfait
     {
         private string libelle;
         private double montant;

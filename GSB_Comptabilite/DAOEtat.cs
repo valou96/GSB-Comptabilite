@@ -41,14 +41,14 @@ namespace GSB_Comptabilite
 
         public List<Etat> SelectAll()
         {
-            List<Etat> listPays = new List<Etat>();
-            DataTable myTable = undbal.SelectAll("etat");
+            List<Etat> listEtat = new List<Etat>();
+            DataTable myTable = undbal.SelectAll("Etat");
 
             foreach (DataRow r in myTable.Rows)
             {
-                listPays.Add(new Etat((string)r["libelle"]));
+                listEtat.Add(new Etat((string)r["libelle"]));
             }
-            return listPays;
+            return listEtat;
         }
         /*
         public Etat SelectById(int idPays)

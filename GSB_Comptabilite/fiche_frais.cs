@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace GSB_Comptabilite
 {
-    public class fiche_frais
+    public class Fiche_frais
     {
         private int user_id;
         private int etat_id;
@@ -15,7 +15,7 @@ namespace GSB_Comptabilite
         private double montant_valide;
         private DateTime date_modif;
 
-        public fiche_frais(int user_id, int etat_id, string mois, 
+        public Fiche_frais(int user_id, int etat_id, string mois, 
             int nb_justificatifs, double montant_valide, 
             DateTime date_modif)
         {
